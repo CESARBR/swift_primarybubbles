@@ -111,35 +111,12 @@
                                     <segue destination="aFU-cV-EYS" kind="show" identifier="GoToMainScreen" id="bHA-jT-xBA"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="ScoreLabel" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0cd-9l-iqq">
-                                <rect key="frame" x="171" y="148" width="259" height="68"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="68" id="QdI-lM-d0u"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="0.0" blue="0.22538601080000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SCORE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f5L-pK-gmO">
-                                <rect key="frame" x="236" y="124" width="129" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="129" id="QfE-sa-JZ9"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="0.0" blue="0.22538601080000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="0cd-9l-iqq" firstAttribute="leading" secondItem="Vdy-HD-3xf" secondAttribute="leading" id="2TW-R1-wJa"/>
                             <constraint firstAttribute="centerX" secondItem="Vdy-HD-3xf" secondAttribute="centerX" id="VDm-BH-nzw"/>
                             <constraint firstItem="Vdy-HD-3xf" firstAttribute="top" secondItem="KZU-cl-ZUK" secondAttribute="top" constant="69" id="Vw3-8I-sST"/>
                             <constraint firstAttribute="centerY" secondItem="l6H-qc-Fx3" secondAttribute="centerY" id="a0t-AP-sZY"/>
-                            <constraint firstAttribute="centerX" secondItem="0cd-9l-iqq" secondAttribute="centerX" constant="-0.5" id="iB4-og-mSZ"/>
-                            <constraint firstItem="l6H-qc-Fx3" firstAttribute="top" secondItem="0cd-9l-iqq" secondAttribute="bottom" constant="46" id="l3P-de-dxo"/>
-                            <constraint firstAttribute="centerX" secondItem="f5L-pK-gmO" secondAttribute="centerX" id="mxk-iE-myE"/>
-                            <constraint firstItem="f5L-pK-gmO" firstAttribute="top" secondItem="Vdy-HD-3xf" secondAttribute="bottom" constant="1" id="mz3-bt-Dbg"/>
                             <constraint firstAttribute="centerX" secondItem="l6H-qc-Fx3" secondAttribute="centerX" id="pcD-wa-Inb"/>
                         </constraints>
                     </view>
